@@ -1,0 +1,21 @@
+{
+  "name": "Blog_Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/PhanCngDuy/Blog_Project.git",
+  "author": "PhanCngDuy <duyphan.140103@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.2"
+  },
+  "scripts": {
+    "start": "node testserver.js",
+    "test": "(eslint lib || true) && jest"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97"
+  }
+}
